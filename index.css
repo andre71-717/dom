@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enter{
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.my_button_down{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid black;
+    margin: 5px 15px;
+}
+
+.my_button_up{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    margin: 5px 15px;
+}
+
+.login_format{
+    width: 150px;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: cornflowerblue;
+    display: flex;
+    display: none;
+}
+
+.display_block{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+
+
+input{
+    width: 100px;
+    height: auto;
+    margin: 22px;
+}
+
+.my_button{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.myDisplayBlock{
+    display: block;
+}
+
+.myLamps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.switcherOn{
+    cursor: pointer;
+}
+
+.switcherOff{
+    cursor: pointer;
+}
+
+.Lampushka2{
+    display: none;
+}
+
+.dateForm{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#date{
+
+    display: none;
+}
+
+.data{
+    cursor: pointer;
+}
+
+/* 
+.myImages{
+    width: 100%;
+    
+}
+
+.myImageInners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+i{
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+} */
+
+.mySlides1 {
+    display: none
+}
+img {
+    vertical-align: middle;
+}
+
+
+.slideshow-container {
+  width: 40%;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: white;
+  color: black;
+}

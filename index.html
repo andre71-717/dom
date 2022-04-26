@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+    crossorigin="anonymous"
+  />
+    <title>Document</title>
+</head>
+<body>
+    <div class="enter">
+        <h5>Enter</h5>
+        <div class="my_button_down"></div>
+    </div>
+
+    <div class="login_format">
+        <div class="display_block">
+        <input type="text" placeholder="Login">
+        <input type="text" placeholder="Password">
+        <button class="my_button">Ok</button>
+        </div>
+    </div>
+
+    <hr style="margin: 15px;">
+
+    <div class="myLamps">
+        <div>
+        <img src="/LampOff.png" alt="" id="myLampOff">
+        <button onclick="switchOn()" class="switcherOn">Turn On</button>
+        <button onclick="switchOff()" class="switcherOff">Turn Off</button>
+        </div>
+        <div>
+
+            <img src="/LampOff.png" alt="" class="Lampushka">
+            <img src="/LampOn.png" alt="" class="Lampushka2">
+
+        </div>
+
+        <div style="margin: 0px 25px;">
+            <img id="lamp" src="/LampOff.png" alt="">
+            <button id="toggleBtn">Turn On</button>
+        </div>
+        
+    </div>
+
+    <hr style="margin: 15px;">
+
+    <div class="dateForm">
+        <button class="data">Today's Data</button>
+        <p id="date"></p>
+    </div>
+
+    <hr style="margin: 15px;">
+
+    <!-- <div class="myImages">
+
+       <div class="myImageInners">
+        <i class="fa-solid fa-arrow-left" id="left"></i>
+        <img src="/spiderman.jpg" alt="" class="mySuperImages">
+        <i class="fa-solid fa-arrow-right" id="right"></i>
+       </div>
+
+    </div> -->
+
+    <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="/spiderman.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides1">
+          <img src="/ironman.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides1">
+          <img src="/thor.jpg" style="width:100%">
+        </div>
+
+        
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+
+
+    
+    <script src="/index.js"></script>
+</body>
+</html>
