@@ -11,8 +11,9 @@ let myArrowDown = document.getElementsByClassName("my_button_down")[0]
 
 clickToDropDown.addEventListener('click', function(){
     myDropDown.classList.toggle("myDisplayBlock")
-    // myArrowDown.classList.toggle("my_button_up")
-    if(myArrowDown){
+
+
+    if(myArrowDown.classList.contains("my_button_down")){
         myArrowDown.classList.replace("my_button_down", "my_button_up")
     }else{
         myArrowDown.classList.replace("my_button_up", "my_button_down")
